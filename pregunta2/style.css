@@ -1,0 +1,117 @@
+html, main, body
+{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    border: 0px 0px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    height: 40px;
+    display: flex;
+    background-color: black;
+    padding-left: 90%;
+}
+
+.menuCabecera
+{
+    display: flex;
+}
+
+.menuCabecera li
+{
+    font-size: 9px;
+    text-transform: uppercase;
+    color: black;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+nav
+{
+    background-color: white;
+}
+
+.menuNav {
+    height: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.menuNav li
+{
+    list-style-type: none;
+    margin-left: 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 12;
+}
+
+.arrow
+{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 10px;
+}
+
+section
+{
+    background-image: url(01.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.secText
+{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+
+h6
+{
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+h2
+{
+    font-size: 16px;
+    color: white;
+    width: 350px;
+}
+
+button
+{
+    background-color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    color: black;
+}
+
+.section2
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subImg
+{
+    border-radius: 10%;
+}
